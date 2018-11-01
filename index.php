@@ -7,7 +7,7 @@
     <meta name="description" content="Free coming soon template with jQuery countdown">
     <meta name="author" content="http://bootstraptaste.com">
 	
-    <title>Em Construção</title>
+    <title>EMPRESTAÊ</title>
 
     <!-- Bootstrap -->
         <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -17,13 +17,6 @@
 
     <!-- siimple style -->
         <link href="assets/css/style.css" rel="stylesheet">
-    
-    <!-- =======================================================
-        Theme Name: WeBuild
-        Theme URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
 
     <body>
@@ -31,9 +24,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Em construção</h1>
-                        <h2 class="subtitle">Nossa equipe esta trabalhando para te surpreender</h2>
-                        <div id="countdown"></div>
+                        <h1 style="color: #19334d;">EMPRESTAÊ</h1>
+                        <div class="row">
+                            <img src="assets/img/logo_emprestae.png" alt="Emprestaê" width="150px;">
+                        </div>
+                        <h2 style="color: #19334d;">O impulso para seus objetivos</h2>
+                        <div align="center" style="color: #19334d;"><b> Em construção </b></div>
+                        <div id="countdown" style="color: #19334d;"></div>
                         <form class="form-inline signup" role="form">
                             <div class="form-group">
                                 <input type="email" class="form-control" id="email" placeholder="Informe seu email aqui">
@@ -48,18 +45,13 @@
                     </div>
                     </div>				
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-lg-offset-3">
-                        <p class="copyright">® Em construção <!--- Todos os direitos reservados</p> -->
-                    </div>
-                </div>		
             </div>
 	</div>
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.countdown.min.js"></script>
         <script type="text/javascript">
-            $('#countdown').countdown('2018/08/01', function(event) {
+            $('#countdown').countdown('2019/03/01', function(event) {
               $(this).html(event.strftime('%w Semanas %d dias <br /> %H:%M:%S'));
             });
         </script>    
